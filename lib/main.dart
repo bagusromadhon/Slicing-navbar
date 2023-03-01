@@ -73,11 +73,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         items: const <BottomNavigationBarItem>[
           
           BottomNavigationBarItem(
-            icon: Icon(Icons.rocket_launch),
+            icon: ImageIcon(AssetImage("asset/image/Lobby.png")),
             label: 'Lobby',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.chat),
+            icon: ImageIcon(AssetImage("asset/image/Chat.png")),
             label: 'Chatting',
             
           ),
@@ -86,11 +86,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             label: 'Assignment',
           ),
            BottomNavigationBarItem(
-            icon: Icon(Icons.add_task_sharp),
+            icon: ImageIcon(AssetImage("asset/image/bi_trophy.png")),
             label: 'Ranking',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle),
+            icon: ImageIcon(AssetImage("asset/image/Profil.png")),
             label: 'Profile',
           ),
         ],
